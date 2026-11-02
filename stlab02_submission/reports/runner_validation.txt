@@ -1,0 +1,40 @@
+RUN=RUN-20261102T171500231662+0700
+Timestamp=2026-11-02T17:15:00.250+07:00
+test_01_valid_row (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_01_valid_row) ... ok
+test_02_invalid_input_json_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_02_invalid_input_json_blocked) ... ok
+test_03_invalid_synthetic_expected_json_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_03_invalid_synthetic_expected_json_blocked) ... ok
+test_04_missing_schema_column_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_04_missing_schema_column_blocked) ... ok
+test_05_both_duplicate_ids_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_05_both_duplicate_ids_blocked) ... ok
+test_06_unknown_operation_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_06_unknown_operation_blocked) ... ok
+test_07_missing_operation_input_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_07_missing_operation_input_blocked) ... ok
+test_08_unknown_fixture_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_08_unknown_fixture_blocked) ... ok
+test_09_nonfinite_json_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_09_nonfinite_json_blocked) ... ok
+test_10_missing_synthetic_state_oracle_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_10_missing_synthetic_state_oracle_blocked) ... ok
+test_11_malformed_csv_keeps_records (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_11_malformed_csv_keeps_records) ... ok
+test_12_blank_csv_record_not_skipped (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_12_blank_csv_record_not_skipped) ... ok
+test_13_duplicate_csv_header_detected (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_13_duplicate_csv_header_detected) ... ok
+test_14_expected_exception_and_state_pass (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_14_expected_exception_and_state_pass) ... ok
+test_15_wrong_exception_message_rejected (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_15_wrong_exception_message_rejected) ... ok
+test_16_wrong_exception_type_rejected (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_16_wrong_exception_type_rejected) ... ok
+test_17_missing_exception_rejected (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_17_missing_exception_rejected) ... ok
+test_18_unexpected_exception_rejected (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_18_unexpected_exception_rejected) ... ok
+test_19_correct_exception_wrong_state_rejected (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_19_correct_exception_wrong_state_rejected) ... ok
+test_20_bool_not_equal_to_integer (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_20_bool_not_equal_to_integer) ... ok
+test_21_fixture_error_is_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_21_fixture_error_is_blocked) ... ok
+test_22_fixture_objects_and_state_are_isolated (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_22_fixture_objects_and_state_are_isolated) ... ok
+test_23_completeness_17_pass_3_blocked_is_85_percent (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_23_completeness_17_pass_3_blocked_is_85_percent) ... ok
+test_24_completeness_missing_result_rejected (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_24_completeness_missing_result_rejected) ... ok
+test_25_order_comparison_ignores_runtime_metadata (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_25_order_comparison_ignores_runtime_metadata) ... ok
+test_26_order_comparison_detects_status_change (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_26_order_comparison_detects_status_change) ... ok
+test_27_order_comparison_detects_actual_or_state_change (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_27_order_comparison_detects_actual_or_state_change) ... ok
+test_28_order_comparison_detects_missing_extra_and_duplicate_ids (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_28_order_comparison_detects_missing_extra_and_duplicate_ids) ... ok
+test_29_order_comparison_does_not_accept_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_29_order_comparison_does_not_accept_blocked) ... ok
+test_30_code_interview_examples (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_30_code_interview_examples) ... ok
+test_31_application_and_design_locks (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_31_application_and_design_locks) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.018s
+
+OK
+
+{"tests_run": 31, "passed": 31, "failures": 0, "errors": 0, "skipped": 0, "successful": true, "evidence_reference": "reports/runner_validation.csv; reports/runner_validation.txt"}

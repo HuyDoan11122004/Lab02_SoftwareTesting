@@ -1,0 +1,389 @@
+[2026-11-02T16:47:01.911+07:00] [2026-11-02T16:47:01.911+07:00] RUN-20261102T164701911454+0700 | Python 3.12.14
+[2026-11-02T16:47:01.911+07:00] [2026-11-02T16:47:01.911+07:00] Expected locked SHA256=78588938e04be88dc600b6949fc62a2814ff8689daa2cfc131ee31f3cda1df69; application SHA256=51a5bd940307df21a67352b69551c041dbbfb542cfb8fe26d29b8d09ae221b03
+[2026-11-02T16:47:01.911+07:00] [2026-11-02T16:47:01.911+07:00] Clean reports; read 52 CSV records; fresh fixture for every case.
+[2026-11-02T16:47:01.916+07:00] [2026-11-02T16:47:01.916+07:00] TC-CART-001 PASS 3.355ms | oracle + state matched
+[2026-11-02T16:47:01.916+07:00] [2026-11-02T16:47:01.916+07:00] TC-CART-002 PASS 0.146ms | oracle + state matched
+[2026-11-02T16:47:01.916+07:00] [2026-11-02T16:47:01.916+07:00] TC-CART-003 PASS 0.093ms | oracle + state matched
+[2026-11-02T16:47:01.916+07:00] [2026-11-02T16:47:01.916+07:00] TC-CART-004 PASS 0.195ms | oracle + state matched
+[2026-11-02T16:47:01.916+07:00] [2026-11-02T16:47:01.916+07:00] TC-CART-005 FAIL 0.080ms | EXPECTED_EXCEPTION_NOT_RAISED
+[2026-11-02T16:47:01.916+07:00] [2026-11-02T16:47:01.916+07:00] TC-CART-006 PASS 0.172ms | oracle + state matched
+[2026-11-02T16:47:01.917+07:00] [2026-11-02T16:47:01.917+07:00] TC-CART-007 PASS 0.160ms | oracle + state matched
+[2026-11-02T16:47:01.917+07:00] [2026-11-02T16:47:01.917+07:00] TC-CART-008 PASS 0.073ms | oracle + state matched
+[2026-11-02T16:47:01.917+07:00] [2026-11-02T16:47:01.917+07:00] TC-CART-009 PASS 0.075ms | oracle + state matched
+[2026-11-02T16:47:01.917+07:00] [2026-11-02T16:47:01.917+07:00] TC-CART-010 PASS 0.182ms | oracle + state matched
+[2026-11-02T16:47:01.917+07:00] [2026-11-02T16:47:01.917+07:00] TC-CART-011 PASS 0.171ms | oracle + state matched
+[2026-11-02T16:47:01.917+07:00] [2026-11-02T16:47:01.917+07:00] TC-PRI-001 PASS 0.116ms | oracle + state matched
+[2026-11-02T16:47:01.918+07:00] [2026-11-02T16:47:01.918+07:00] TC-PRI-002 PASS 0.059ms | oracle + state matched
+[2026-11-02T16:47:01.918+07:00] [2026-11-02T16:47:01.918+07:00] TC-PRI-003 PASS 0.088ms | oracle + state matched
+[2026-11-02T16:47:01.918+07:00] [2026-11-02T16:47:01.918+07:00] TC-PRI-004 PASS 0.078ms | oracle + state matched
+[2026-11-02T16:47:01.918+07:00] [2026-11-02T16:47:01.918+07:00] TC-PRI-005 PASS 0.078ms | oracle + state matched
+[2026-11-02T16:47:01.918+07:00] [2026-11-02T16:47:01.918+07:00] TC-PRO-001 PASS 0.093ms | oracle + state matched
+[2026-11-02T16:47:01.918+07:00] [2026-11-02T16:47:01.918+07:00] TC-PRO-002 PASS 0.207ms | oracle + state matched
+[2026-11-02T16:47:01.918+07:00] [2026-11-02T16:47:01.918+07:00] TC-PRO-003 PASS 0.196ms | oracle + state matched
+[2026-11-02T16:47:01.919+07:00] [2026-11-02T16:47:01.919+07:00] TC-PRO-004 PASS 0.166ms | oracle + state matched
+[2026-11-02T16:47:01.919+07:00] [2026-11-02T16:47:01.919+07:00] TC-PRO-005 PASS 0.158ms | oracle + state matched
+[2026-11-02T16:47:01.919+07:00] [2026-11-02T16:47:01.919+07:00] TC-PRO-006 PASS 0.074ms | oracle + state matched
+[2026-11-02T16:47:01.919+07:00] [2026-11-02T16:47:01.919+07:00] TC-PRO-007 PASS 0.167ms | oracle + state matched
+[2026-11-02T16:47:01.919+07:00] [2026-11-02T16:47:01.919+07:00] TC-PRO-008 FAIL 0.074ms | EXPECTED_EXCEPTION_NOT_RAISED
+[2026-11-02T16:47:01.919+07:00] [2026-11-02T16:47:01.919+07:00] TC-PRO-009 PASS 0.152ms | oracle + state matched
+[2026-11-02T16:47:01.920+07:00] [2026-11-02T16:47:01.920+07:00] TC-PRO-010 PASS 0.141ms | oracle + state matched
+[2026-11-02T16:47:01.920+07:00] [2026-11-02T16:47:01.920+07:00] TC-PRO-011 FAIL 0.240ms | actual.state.stock.A: expected=20, actual=17
+[2026-11-02T16:47:01.920+07:00] [2026-11-02T16:47:01.920+07:00] TC-PRO-012 FAIL 0.239ms | actual.return[0].state.stock.A: expected=20, actual=17
+[2026-11-02T16:47:01.920+07:00] [2026-11-02T16:47:01.920+07:00] TC-SHP-001 PASS 0.056ms | oracle + state matched
+[2026-11-02T16:47:01.920+07:00] [2026-11-02T16:47:01.920+07:00] TC-SHP-002 PASS 0.051ms | oracle + state matched
+[2026-11-02T16:47:01.920+07:00] [2026-11-02T16:47:01.920+07:00] TC-SHP-003 PASS 0.052ms | oracle + state matched
+[2026-11-02T16:47:01.920+07:00] [2026-11-02T16:47:01.920+07:00] TC-SHP-004 PASS 0.049ms | oracle + state matched
+[2026-11-02T16:47:01.921+07:00] [2026-11-02T16:47:01.921+07:00] TC-SHP-005 PASS 0.048ms | oracle + state matched
+[2026-11-02T16:47:01.921+07:00] [2026-11-02T16:47:01.921+07:00] TC-SHP-006 PASS 0.048ms | oracle + state matched
+[2026-11-02T16:47:01.921+07:00] [2026-11-02T16:47:01.921+07:00] TC-PAY-001 PASS 0.049ms | oracle + state matched
+[2026-11-02T16:47:01.921+07:00] [2026-11-02T16:47:01.921+07:00] TC-PAY-002 PASS 0.087ms | oracle + state matched
+[2026-11-02T16:47:01.921+07:00] [2026-11-02T16:47:01.921+07:00] TC-PAY-003 PASS 0.246ms | oracle + state matched
+[2026-11-02T16:47:01.921+07:00] [2026-11-02T16:47:01.921+07:00] TC-PAY-004 PASS 0.174ms | oracle + state matched
+[2026-11-02T16:47:01.922+07:00] [2026-11-02T16:47:01.922+07:00] TC-PAY-005 PASS 0.204ms | oracle + state matched
+[2026-11-02T16:47:01.922+07:00] [2026-11-02T16:47:01.922+07:00] TC-PAY-006 FAIL 0.270ms | actual.state.stock.A: expected=20, actual=18
+[2026-11-02T16:47:01.922+07:00] [2026-11-02T16:47:01.922+07:00] TC-PAY-007 FAIL 0.238ms | actual.state.stock.B: expected=15, actual=14
+[2026-11-02T16:47:01.922+07:00] [2026-11-02T16:47:01.922+07:00] TC-INV-001 PASS 0.189ms | oracle + state matched
+[2026-11-02T16:47:01.923+07:00] [2026-11-02T16:47:01.923+07:00] TC-INV-002 PASS 0.215ms | oracle + state matched
+[2026-11-02T16:47:01.923+07:00] [2026-11-02T16:47:01.923+07:00] TC-INV-003 PASS 0.179ms | oracle + state matched
+[2026-11-02T16:47:01.923+07:00] [2026-11-02T16:47:01.923+07:00] TC-INV-004 PASS 0.080ms | oracle + state matched
+[2026-11-02T16:47:01.923+07:00] [2026-11-02T16:47:01.923+07:00] TC-INV-005 PASS 0.081ms | oracle + state matched
+[2026-11-02T16:47:01.923+07:00] [2026-11-02T16:47:01.923+07:00] TC-INV-006 PASS 0.228ms | oracle + state matched
+[2026-11-02T16:47:01.923+07:00] [2026-11-02T16:47:01.923+07:00] TC-SAFE-001 PASS 0.177ms | oracle + state matched
+[2026-11-02T16:47:01.924+07:00] [2026-11-02T16:47:01.924+07:00] TC-SAFE-002 FAIL 0.231ms | actual.state.stock.A: expected=20, actual=18
+[2026-11-02T16:47:01.924+07:00] [2026-11-02T16:47:01.924+07:00] TC-SAFE-003 FAIL 0.228ms | actual.state.stock.A: expected=20, actual=18
+[2026-11-02T16:47:01.924+07:00] [2026-11-02T16:47:01.924+07:00] TC-SAFE-004 PASS 0.165ms | oracle + state matched
+[2026-11-02T16:47:01.924+07:00] [2026-11-02T16:47:01.924+07:00] TC-SAFE-005 FAIL 0.223ms | actual.state.stock.A: expected=20, actual=18
+[2026-11-02T16:47:01.925+07:00] [2026-11-02T16:47:01.925+07:00] RECHECK TC-CART-005 FAIL reproduced=True fixture=new
+[2026-11-02T16:47:01.925+07:00] [2026-11-02T16:47:01.925+07:00] RECHECK TC-PRO-008 FAIL reproduced=True fixture=new
+[2026-11-02T16:47:01.925+07:00] [2026-11-02T16:47:01.925+07:00] RECHECK TC-PRO-011 FAIL reproduced=True fixture=new
+[2026-11-02T16:47:01.926+07:00] [2026-11-02T16:47:01.926+07:00] RECHECK TC-PRO-012 FAIL reproduced=True fixture=new
+[2026-11-02T16:47:01.926+07:00] [2026-11-02T16:47:01.926+07:00] RECHECK TC-PAY-006 FAIL reproduced=True fixture=new
+[2026-11-02T16:47:01.926+07:00] [2026-11-02T16:47:01.926+07:00] RECHECK TC-PAY-007 FAIL reproduced=True fixture=new
+[2026-11-02T16:47:01.926+07:00] [2026-11-02T16:47:01.926+07:00] RECHECK TC-SAFE-002 FAIL reproduced=True fixture=new
+[2026-11-02T16:47:01.927+07:00] [2026-11-02T16:47:01.927+07:00] RECHECK TC-SAFE-003 FAIL reproduced=True fixture=new
+[2026-11-02T16:47:01.927+07:00] [2026-11-02T16:47:01.927+07:00] RECHECK TC-SAFE-005 FAIL reproduced=True fixture=new
+[2026-11-02T16:47:07.742+07:00] Matplotlib is building the font cache; this may take a moment.
+[2026-11-02T16:47:10.986+07:00] [2026-11-02T16:47:10.986+07:00] TOTAL=52 PASS=43 FAIL=9 BLOCKED=0 executed=52 pass_rate=82.69%
+[2026-11-02T16:47:10.986+07:00] [2026-11-02T16:47:10.986+07:00] Completeness: executed + blocked = CSV rows. Reproduced=True.
+[2026-11-02T16:56:23.130+07:00] [2026-11-02T16:56:23.130+07:00] RUN-20261102T165623130593+0700 | Python 3.12.14
+[2026-11-02T16:56:23.130+07:00] [2026-11-02T16:56:23.130+07:00] Expected locked SHA256=78588938e04be88dc600b6949fc62a2814ff8689daa2cfc131ee31f3cda1df69; application SHA256=51a5bd940307df21a67352b69551c041dbbfb542cfb8fe26d29b8d09ae221b03
+[2026-11-02T16:56:23.130+07:00] [2026-11-02T16:56:23.130+07:00] Clean reports; read 52 CSV records; fresh fixture for every case.
+[2026-11-02T16:56:23.132+07:00] [2026-11-02T16:56:23.132+07:00] TC-CART-001 PASS 1.619ms | oracle + state matched
+[2026-11-02T16:56:23.132+07:00] [2026-11-02T16:56:23.132+07:00] TC-CART-002 PASS 0.116ms | oracle + state matched
+[2026-11-02T16:56:23.133+07:00] [2026-11-02T16:56:23.133+07:00] TC-CART-003 PASS 0.044ms | oracle + state matched
+[2026-11-02T16:56:23.133+07:00] [2026-11-02T16:56:23.133+07:00] TC-CART-004 PASS 0.090ms | oracle + state matched
+[2026-11-02T16:56:23.133+07:00] [2026-11-02T16:56:23.133+07:00] TC-CART-005 FAIL 0.038ms | EXPECTED_EXCEPTION_NOT_RAISED
+[2026-11-02T16:56:23.133+07:00] [2026-11-02T16:56:23.133+07:00] TC-CART-006 PASS 0.089ms | oracle + state matched
+[2026-11-02T16:56:23.133+07:00] [2026-11-02T16:56:23.133+07:00] TC-CART-007 PASS 0.088ms | oracle + state matched
+[2026-11-02T16:56:23.133+07:00] [2026-11-02T16:56:23.133+07:00] TC-CART-008 PASS 0.036ms | oracle + state matched
+[2026-11-02T16:56:23.133+07:00] [2026-11-02T16:56:23.133+07:00] TC-CART-009 PASS 0.036ms | oracle + state matched
+[2026-11-02T16:56:23.133+07:00] [2026-11-02T16:56:23.133+07:00] TC-CART-010 PASS 0.090ms | oracle + state matched
+[2026-11-02T16:56:23.133+07:00] [2026-11-02T16:56:23.133+07:00] TC-CART-011 PASS 0.085ms | oracle + state matched
+[2026-11-02T16:56:23.133+07:00] [2026-11-02T16:56:23.133+07:00] TC-PRI-001 PASS 0.049ms | oracle + state matched
+[2026-11-02T16:56:23.133+07:00] [2026-11-02T16:56:23.133+07:00] TC-PRI-002 PASS 0.029ms | oracle + state matched
+[2026-11-02T16:56:23.133+07:00] [2026-11-02T16:56:23.133+07:00] TC-PRI-003 PASS 0.039ms | oracle + state matched
+[2026-11-02T16:56:23.133+07:00] [2026-11-02T16:56:23.133+07:00] TC-PRI-004 PASS 0.034ms | oracle + state matched
+[2026-11-02T16:56:23.133+07:00] [2026-11-02T16:56:23.133+07:00] TC-PRI-005 PASS 0.033ms | oracle + state matched
+[2026-11-02T16:56:23.134+07:00] [2026-11-02T16:56:23.134+07:00] TC-PRO-001 PASS 0.045ms | oracle + state matched
+[2026-11-02T16:56:23.134+07:00] [2026-11-02T16:56:23.134+07:00] TC-PRO-002 PASS 0.103ms | oracle + state matched
+[2026-11-02T16:56:23.134+07:00] [2026-11-02T16:56:23.134+07:00] TC-PRO-003 PASS 0.095ms | oracle + state matched
+[2026-11-02T16:56:23.134+07:00] [2026-11-02T16:56:23.134+07:00] TC-PRO-004 PASS 0.080ms | oracle + state matched
+[2026-11-02T16:56:23.134+07:00] [2026-11-02T16:56:23.134+07:00] TC-PRO-005 PASS 0.082ms | oracle + state matched
+[2026-11-02T16:56:23.134+07:00] [2026-11-02T16:56:23.134+07:00] TC-PRO-006 PASS 0.036ms | oracle + state matched
+[2026-11-02T16:56:23.134+07:00] [2026-11-02T16:56:23.134+07:00] TC-PRO-007 PASS 0.078ms | oracle + state matched
+[2026-11-02T16:56:23.134+07:00] [2026-11-02T16:56:23.134+07:00] TC-PRO-008 FAIL 0.036ms | EXPECTED_EXCEPTION_NOT_RAISED
+[2026-11-02T16:56:23.134+07:00] [2026-11-02T16:56:23.134+07:00] TC-PRO-009 PASS 0.078ms | oracle + state matched
+[2026-11-02T16:56:23.134+07:00] [2026-11-02T16:56:23.134+07:00] TC-PRO-010 PASS 0.075ms | oracle + state matched
+[2026-11-02T16:56:23.134+07:00] [2026-11-02T16:56:23.134+07:00] TC-PRO-011 FAIL 0.126ms | actual.state.stock.A: expected=20, actual=17
+[2026-11-02T16:56:23.135+07:00] [2026-11-02T16:56:23.135+07:00] TC-PRO-012 FAIL 0.126ms | actual.return[0].state.stock.A: expected=20, actual=17
+[2026-11-02T16:56:23.135+07:00] [2026-11-02T16:56:23.135+07:00] TC-SHP-001 PASS 0.075ms | oracle + state matched
+[2026-11-02T16:56:23.135+07:00] [2026-11-02T16:56:23.135+07:00] TC-SHP-002 PASS 0.036ms | oracle + state matched
+[2026-11-02T16:56:23.135+07:00] [2026-11-02T16:56:23.135+07:00] TC-SHP-003 PASS 0.030ms | oracle + state matched
+[2026-11-02T16:56:23.135+07:00] [2026-11-02T16:56:23.135+07:00] TC-SHP-004 PASS 0.028ms | oracle + state matched
+[2026-11-02T16:56:23.135+07:00] [2026-11-02T16:56:23.135+07:00] TC-SHP-005 PASS 0.029ms | oracle + state matched
+[2026-11-02T16:56:23.135+07:00] [2026-11-02T16:56:23.135+07:00] TC-SHP-006 PASS 0.027ms | oracle + state matched
+[2026-11-02T16:56:23.135+07:00] [2026-11-02T16:56:23.135+07:00] TC-PAY-001 PASS 0.028ms | oracle + state matched
+[2026-11-02T16:56:23.135+07:00] [2026-11-02T16:56:23.135+07:00] TC-PAY-002 PASS 0.034ms | oracle + state matched
+[2026-11-02T16:56:23.135+07:00] [2026-11-02T16:56:23.135+07:00] TC-PAY-003 PASS 0.130ms | oracle + state matched
+[2026-11-02T16:56:23.135+07:00] [2026-11-02T16:56:23.135+07:00] TC-PAY-004 PASS 0.093ms | oracle + state matched
+[2026-11-02T16:56:23.135+07:00] [2026-11-02T16:56:23.135+07:00] TC-PAY-005 PASS 0.080ms | oracle + state matched
+[2026-11-02T16:56:23.136+07:00] [2026-11-02T16:56:23.136+07:00] TC-PAY-006 FAIL 0.173ms | actual.state.stock.A: expected=20, actual=18
+[2026-11-02T16:56:23.136+07:00] [2026-11-02T16:56:23.136+07:00] TC-PAY-007 FAIL 0.125ms | actual.state.stock.B: expected=15, actual=14
+[2026-11-02T16:56:23.136+07:00] [2026-11-02T16:56:23.136+07:00] TC-INV-001 PASS 0.105ms | oracle + state matched
+[2026-11-02T16:56:23.136+07:00] [2026-11-02T16:56:23.136+07:00] TC-INV-002 PASS 0.120ms | oracle + state matched
+[2026-11-02T16:56:23.136+07:00] [2026-11-02T16:56:23.136+07:00] TC-INV-003 PASS 0.100ms | oracle + state matched
+[2026-11-02T16:56:23.136+07:00] [2026-11-02T16:56:23.136+07:00] TC-INV-004 PASS 0.044ms | oracle + state matched
+[2026-11-02T16:56:23.136+07:00] [2026-11-02T16:56:23.136+07:00] TC-INV-005 PASS 0.043ms | oracle + state matched
+[2026-11-02T16:56:23.136+07:00] [2026-11-02T16:56:23.136+07:00] TC-INV-006 PASS 0.130ms | oracle + state matched
+[2026-11-02T16:56:23.136+07:00] [2026-11-02T16:56:23.136+07:00] TC-SAFE-001 PASS 0.094ms | oracle + state matched
+[2026-11-02T16:56:23.137+07:00] [2026-11-02T16:56:23.137+07:00] TC-SAFE-002 FAIL 0.127ms | actual.state.stock.A: expected=20, actual=18
+[2026-11-02T16:56:23.137+07:00] [2026-11-02T16:56:23.137+07:00] TC-SAFE-003 FAIL 0.124ms | actual.state.stock.A: expected=20, actual=18
+[2026-11-02T16:56:23.137+07:00] [2026-11-02T16:56:23.137+07:00] TC-SAFE-004 PASS 0.090ms | oracle + state matched
+[2026-11-02T16:56:23.137+07:00] [2026-11-02T16:56:23.137+07:00] TC-SAFE-005 FAIL 0.125ms | actual.state.stock.A: expected=20, actual=18
+[2026-11-02T16:56:23.137+07:00] [2026-11-02T16:56:23.137+07:00] RECHECK TC-CART-005 FAIL reproduced=True fixture=new
+[2026-11-02T16:56:23.137+07:00] [2026-11-02T16:56:23.137+07:00] RECHECK TC-PRO-008 FAIL reproduced=True fixture=new
+[2026-11-02T16:56:23.137+07:00] [2026-11-02T16:56:23.137+07:00] RECHECK TC-PRO-011 FAIL reproduced=True fixture=new
+[2026-11-02T16:56:23.138+07:00] [2026-11-02T16:56:23.138+07:00] RECHECK TC-PRO-012 FAIL reproduced=True fixture=new
+[2026-11-02T16:56:23.138+07:00] [2026-11-02T16:56:23.138+07:00] RECHECK TC-PAY-006 FAIL reproduced=True fixture=new
+[2026-11-02T16:56:23.138+07:00] [2026-11-02T16:56:23.138+07:00] RECHECK TC-PAY-007 FAIL reproduced=True fixture=new
+[2026-11-02T16:56:23.138+07:00] [2026-11-02T16:56:23.138+07:00] RECHECK TC-SAFE-002 FAIL reproduced=True fixture=new
+[2026-11-02T16:56:23.138+07:00] [2026-11-02T16:56:23.138+07:00] RECHECK TC-SAFE-003 FAIL reproduced=True fixture=new
+[2026-11-02T16:56:23.138+07:00] [2026-11-02T16:56:23.138+07:00] RECHECK TC-SAFE-005 FAIL reproduced=True fixture=new
+[2026-11-02T16:56:28.267+07:00] Matplotlib is building the font cache; this may take a moment.
+[2026-11-02T16:56:30.457+07:00] [2026-11-02T16:56:30.457+07:00] TOTAL=52 PASS=43 FAIL=9 BLOCKED=0 executed=52 pass_rate=82.69%
+[2026-11-02T16:56:30.457+07:00] [2026-11-02T16:56:30.457+07:00] Completeness: executed + blocked = CSV rows. Reproduced=True.
+[2026-11-02T16:57:38.568+07:00] QA QA timestamp 2026-11-02T16:57:37.771+07:00
+[2026-11-02T16:57:38.568+07:00] QA PASS invalid input JSON BLOCKED reason= INVALID_JSON:input_json:Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-11-02T16:57:38.568+07:00] QA PASS synthetic malformed expected JSON BLOCKED reason= INVALID_JSON:expected_json:Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-11-02T16:57:38.568+07:00] QA PASS duplicate ID BLOCKED reason= DUPLICATE_TEST_ID
+[2026-11-02T16:57:38.568+07:00] QA PASS missing column BLOCKED reason= INVALID_SCHEMA:expected exact ordered columns
+[2026-11-02T16:57:38.568+07:00] QA PASS unknown operation BLOCKED reason= UNKNOWN_OPERATION_OR_REQUIREMENT_MAPPING
+[2026-11-02T16:57:38.568+07:00] QA PASS unknown fixture BLOCKED reason= UNKNOWN_FIXTURE
+[2026-11-02T16:57:38.568+07:00] QA PASS nonfinite JSON BLOCKED reason= INVALID_JSON:input_json:NONFINITE_JSON:NaN
+[2026-11-02T16:57:38.568+07:00] QA PASS missing state oracle BLOCKED reason= MISSING_STATE_ORACLE
+[2026-11-02T16:57:38.568+07:00] QA PASS fixture failure -> BLOCKED infrastructure
+[2026-11-02T16:57:38.568+07:00] QA PASS exception oracle rejects wrong exception type
+[2026-11-02T16:57:38.568+07:00] QA PASS exception oracle rejects wrong message
+[2026-11-02T16:57:38.568+07:00] QA PASS exception oracle rejects right exception but wrong state
+[2026-11-02T16:57:38.568+07:00] QA PASS exception oracle rejects missing exception
+[2026-11-02T16:57:38.568+07:00] QA PASS unexpected exception -> FAIL; bool vs int is strict
+[2026-11-02T16:57:38.568+07:00] QA PASS fixture isolation (simultaneous object identities and mutation)
+[2026-11-02T16:57:38.568+07:00] QA PASS fixture isolation price and stock boundary order
+[2026-11-02T16:57:38.568+07:00] QA PASS completeness 20 rows = 17 PASS + 3 BLOCKED -> 85%, no all-passed claim
+[2026-11-02T16:57:38.568+07:00] QA PASS completeness rejects missing result row
+[2026-11-02T16:57:38.568+07:00] QA PASS malformed CSV retains both data records and reports error
+[2026-11-02T16:57:38.568+07:00] QA PASS blank data record preserved for BLOCKED, not skipped
+[2026-11-02T16:57:38.568+07:00] QA PASS Code Interview snippet check_invalid_quantity
+[2026-11-02T16:57:38.568+07:00] QA PASS Code Interview snippet check_paid_order
+[2026-11-02T16:57:38.568+07:00] QA PASS Code Interview snippet check_fresh_fixture
+[2026-11-02T16:57:38.568+07:00] QA PASS Gradio imported and Blocks/Row/Column built; server not launched; analytics disabled
+[2026-11-02T16:57:38.568+07:00] QA PASS Gradio filter ALL ALL rows= 52
+[2026-11-02T16:57:38.568+07:00] QA PASS Gradio filter REQ-09 PASS rows= 6
+[2026-11-02T16:57:38.568+07:00] QA PASS Gradio filter REQ-16 FAIL rows= 3
+[2026-11-02T16:57:38.568+07:00] QA PASS Gradio filter ALL BLOCKED rows= 0
+[2026-11-02T16:57:38.568+07:00] QA PASS Gradio filter REQ-03 FAIL rows= 0
+[2026-11-02T16:57:38.568+07:00] QA PASS execution completeness/counts; every FAIL mapped and rechecked; trace7/15/19/52, no orphans
+[2026-11-02T16:57:38.568+07:00] QA PASS Excel four sheets, row counts, per-REQ totals, chart, filters, no error cells
+[2026-11-02T16:57:38.568+07:00] QA PASS immutable expected and application SHA256 unchanged
+[2026-11-02T16:57:38.568+07:00] QA QA COMPLETE 2026-11-02T16:57:38.568+07:00
+[2026-11-02T16:59:39.730+07:00] QA reporter: explicit PASS/FAIL/BLOCKED Excel chart labels and matching colors; regenerated reports from unchanged raw execution; application and expected hashes verified.
+[2026-11-02T17:00:57.137+07:00] QA reporter formatting: SeriesLabel(str=...) raised TypeError during a formatting-only re-export; corrected to SeriesLabel(v=...) and re-export succeeded. No expected or application change.
+[2026-11-02T17:00:57.137+07:00] PASS visual QA: rendered and reviewed Execution, Traceability, Summary, Defects; final Summary legend PASS/FAIL/BLOCKED and colors verified. Preview builder/symlink/images removed after review.
+[2026-11-02T17:00:57.137+07:00] PASS final deliverables: four workbook sheets, 52 execution rows and 9 reproduced failures; no PDF/README/repository created.
+[2026-11-02T17:11:08.375+07:00] [2026-11-02T17:11:08.375+07:00] RUN-20261102T171108375171+0700 | Python 3.12.14
+[2026-11-02T17:11:08.375+07:00] [2026-11-02T17:11:08.375+07:00] Expected locked SHA256=78588938e04be88dc600b6949fc62a2814ff8689daa2cfc131ee31f3cda1df69; application SHA256=51a5bd940307df21a67352b69551c041dbbfb542cfb8fe26d29b8d09ae221b03
+[2026-11-02T17:11:08.375+07:00] [2026-11-02T17:11:08.375+07:00] Clean reports; read 52 CSV records; fresh fixture for every case.
+[2026-11-02T17:11:08.392+07:00] test_01_valid_row (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_01_valid_row) ... ok
+[2026-11-02T17:11:08.392+07:00] test_02_invalid_input_json_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_02_invalid_input_json_blocked) ... ok
+[2026-11-02T17:11:08.392+07:00] test_03_invalid_synthetic_expected_json_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_03_invalid_synthetic_expected_json_blocked) ... ok
+[2026-11-02T17:11:08.392+07:00] test_04_missing_schema_column_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_04_missing_schema_column_blocked) ... ok
+[2026-11-02T17:11:08.392+07:00] test_05_both_duplicate_ids_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_05_both_duplicate_ids_blocked) ... ok
+[2026-11-02T17:11:08.392+07:00] test_06_unknown_operation_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_06_unknown_operation_blocked) ... ok
+[2026-11-02T17:11:08.392+07:00] test_07_missing_operation_input_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_07_missing_operation_input_blocked) ... ok
+[2026-11-02T17:11:08.392+07:00] test_08_unknown_fixture_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_08_unknown_fixture_blocked) ... ok
+[2026-11-02T17:11:08.392+07:00] test_09_nonfinite_json_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_09_nonfinite_json_blocked) ... ok
+[2026-11-02T17:11:08.392+07:00] test_10_missing_synthetic_state_oracle_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_10_missing_synthetic_state_oracle_blocked) ... ok
+[2026-11-02T17:11:08.392+07:00] test_11_malformed_csv_keeps_records (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_11_malformed_csv_keeps_records) ... ok
+[2026-11-02T17:11:08.392+07:00] test_12_blank_csv_record_not_skipped (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_12_blank_csv_record_not_skipped) ... ok
+[2026-11-02T17:11:08.392+07:00] test_13_duplicate_csv_header_detected (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_13_duplicate_csv_header_detected) ... ok
+[2026-11-02T17:11:08.392+07:00] test_14_expected_exception_and_state_pass (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_14_expected_exception_and_state_pass) ... ok
+[2026-11-02T17:11:08.392+07:00] test_15_wrong_exception_message_rejected (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_15_wrong_exception_message_rejected) ... ok
+[2026-11-02T17:11:08.392+07:00] test_16_wrong_exception_type_rejected (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_16_wrong_exception_type_rejected) ... ok
+[2026-11-02T17:11:08.392+07:00] test_17_missing_exception_rejected (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_17_missing_exception_rejected) ... ok
+[2026-11-02T17:11:08.392+07:00] test_18_unexpected_exception_rejected (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_18_unexpected_exception_rejected) ... ok
+[2026-11-02T17:11:08.392+07:00] test_19_correct_exception_wrong_state_rejected (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_19_correct_exception_wrong_state_rejected) ... ok
+[2026-11-02T17:11:08.392+07:00] test_20_bool_not_equal_to_integer (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_20_bool_not_equal_to_integer) ... ok
+[2026-11-02T17:11:08.392+07:00] test_21_fixture_error_is_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_21_fixture_error_is_blocked) ... ok
+[2026-11-02T17:11:08.392+07:00] test_22_fixture_objects_and_state_are_isolated (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_22_fixture_objects_and_state_are_isolated) ... ok
+[2026-11-02T17:11:08.392+07:00] test_23_completeness_17_pass_3_blocked_is_85_percent (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_23_completeness_17_pass_3_blocked_is_85_percent) ... ok
+[2026-11-02T17:11:08.392+07:00] test_24_completeness_missing_result_rejected (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_24_completeness_missing_result_rejected) ... ok
+[2026-11-02T17:11:08.392+07:00] test_25_order_comparison_ignores_runtime_metadata (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_25_order_comparison_ignores_runtime_metadata) ... ok
+[2026-11-02T17:11:08.392+07:00] test_26_order_comparison_detects_status_change (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_26_order_comparison_detects_status_change) ... ok
+[2026-11-02T17:11:08.392+07:00] test_27_order_comparison_detects_actual_or_state_change (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_27_order_comparison_detects_actual_or_state_change) ... ok
+[2026-11-02T17:11:08.392+07:00] test_28_order_comparison_detects_missing_extra_and_duplicate_ids (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_28_order_comparison_detects_missing_extra_and_duplicate_ids) ... ok
+[2026-11-02T17:11:08.392+07:00] test_29_order_comparison_does_not_accept_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_29_order_comparison_does_not_accept_blocked) ... ok
+[2026-11-02T17:11:08.392+07:00] test_30_code_interview_examples (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_30_code_interview_examples) ... ok
+[2026-11-02T17:11:08.392+07:00] test_31_application_and_design_locks (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_31_application_and_design_locks) ... ok
+[2026-11-02T17:11:08.392+07:00] 
+[2026-11-02T17:11:08.392+07:00] ----------------------------------------------------------------------
+[2026-11-02T17:11:08.392+07:00] Ran 31 tests in 0.017s
+[2026-11-02T17:11:08.392+07:00] 
+[2026-11-02T17:11:08.392+07:00] OK
+[2026-11-02T17:11:08.393+07:00] [2026-11-02T17:11:08.393+07:00] RUNNER CHECKS: 31/31 PASS; successful=True
+[2026-11-02T17:11:08.393+07:00] [2026-11-02T17:11:08.393+07:00] TC-CART-001 PASS 0.181ms | oracle + state matched
+[2026-11-02T17:11:08.393+07:00] [2026-11-02T17:11:08.393+07:00] TC-CART-002 PASS 0.158ms | oracle + state matched
+[2026-11-02T17:11:08.393+07:00] [2026-11-02T17:11:08.393+07:00] TC-CART-003 PASS 0.057ms | oracle + state matched
+[2026-11-02T17:11:08.394+07:00] [2026-11-02T17:11:08.394+07:00] TC-CART-004 PASS 0.156ms | oracle + state matched
+[2026-11-02T17:11:08.394+07:00] [2026-11-02T17:11:08.394+07:00] TC-CART-005 FAIL 0.045ms | EXPECTED_EXCEPTION_NOT_RAISED
+[2026-11-02T17:11:08.394+07:00] [2026-11-02T17:11:08.394+07:00] TC-CART-006 PASS 0.155ms | oracle + state matched
+[2026-11-02T17:11:08.394+07:00] [2026-11-02T17:11:08.394+07:00] TC-CART-007 PASS 0.195ms | oracle + state matched
+[2026-11-02T17:11:08.394+07:00] [2026-11-02T17:11:08.394+07:00] TC-CART-008 PASS 0.050ms | oracle + state matched
+[2026-11-02T17:11:08.394+07:00] [2026-11-02T17:11:08.394+07:00] TC-CART-009 PASS 0.048ms | oracle + state matched
+[2026-11-02T17:11:08.395+07:00] [2026-11-02T17:11:08.395+07:00] TC-CART-010 PASS 0.242ms | oracle + state matched
+[2026-11-02T17:11:08.395+07:00] [2026-11-02T17:11:08.395+07:00] TC-CART-011 PASS 0.177ms | oracle + state matched
+[2026-11-02T17:11:08.395+07:00] [2026-11-02T17:11:08.395+07:00] TC-PRI-001 PASS 0.058ms | oracle + state matched
+[2026-11-02T17:11:08.395+07:00] [2026-11-02T17:11:08.395+07:00] TC-PRI-002 PASS 0.044ms | oracle + state matched
+[2026-11-02T17:11:08.395+07:00] [2026-11-02T17:11:08.395+07:00] TC-PRI-003 PASS 0.076ms | oracle + state matched
+[2026-11-02T17:11:08.395+07:00] [2026-11-02T17:11:08.395+07:00] TC-PRI-004 PASS 0.059ms | oracle + state matched
+[2026-11-02T17:11:08.395+07:00] [2026-11-02T17:11:08.395+07:00] TC-PRI-005 PASS 0.135ms | oracle + state matched
+[2026-11-02T17:11:08.396+07:00] [2026-11-02T17:11:08.396+07:00] TC-PRO-001 PASS 0.051ms | oracle + state matched
+[2026-11-02T17:11:08.396+07:00] [2026-11-02T17:11:08.396+07:00] TC-PRO-002 PASS 0.230ms | oracle + state matched
+[2026-11-02T17:11:08.396+07:00] [2026-11-02T17:11:08.396+07:00] TC-PRO-003 PASS 0.184ms | oracle + state matched
+[2026-11-02T17:11:08.396+07:00] [2026-11-02T17:11:08.396+07:00] TC-PRO-004 PASS 0.157ms | oracle + state matched
+[2026-11-02T17:11:08.396+07:00] [2026-11-02T17:11:08.396+07:00] TC-PRO-005 PASS 0.143ms | oracle + state matched
+[2026-11-02T17:11:08.396+07:00] [2026-11-02T17:11:08.396+07:00] TC-PRO-006 PASS 0.054ms | oracle + state matched
+[2026-11-02T17:11:08.397+07:00] [2026-11-02T17:11:08.397+07:00] TC-PRO-007 PASS 0.104ms | oracle + state matched
+[2026-11-02T17:11:08.397+07:00] [2026-11-02T17:11:08.397+07:00] TC-PRO-008 FAIL 0.052ms | EXPECTED_EXCEPTION_NOT_RAISED
+[2026-11-02T17:11:08.397+07:00] [2026-11-02T17:11:08.397+07:00] TC-PRO-009 PASS 0.184ms | oracle + state matched
+[2026-11-02T17:11:08.397+07:00] [2026-11-02T17:11:08.397+07:00] TC-PRO-010 PASS 0.113ms | oracle + state matched
+[2026-11-02T17:11:08.397+07:00] [2026-11-02T17:11:08.397+07:00] TC-PRO-011 FAIL 0.159ms | actual.state.stock.A: expected=20, actual=17
+[2026-11-02T17:11:08.398+07:00] [2026-11-02T17:11:08.398+07:00] TC-PRO-012 FAIL 0.247ms | actual.return[0].state.stock.A: expected=20, actual=17
+[2026-11-02T17:11:08.398+07:00] [2026-11-02T17:11:08.398+07:00] TC-SHP-001 PASS 0.048ms | oracle + state matched
+[2026-11-02T17:11:08.398+07:00] [2026-11-02T17:11:08.398+07:00] TC-SHP-002 PASS 0.053ms | oracle + state matched
+[2026-11-02T17:11:08.398+07:00] [2026-11-02T17:11:08.398+07:00] TC-SHP-003 PASS 0.051ms | oracle + state matched
+[2026-11-02T17:11:08.398+07:00] [2026-11-02T17:11:08.398+07:00] TC-SHP-004 PASS 0.081ms | oracle + state matched
+[2026-11-02T17:11:08.398+07:00] [2026-11-02T17:11:08.398+07:00] TC-SHP-005 PASS 0.033ms | oracle + state matched
+[2026-11-02T17:11:08.398+07:00] [2026-11-02T17:11:08.398+07:00] TC-SHP-006 PASS 0.076ms | oracle + state matched
+[2026-11-02T17:11:08.398+07:00] [2026-11-02T17:11:08.398+07:00] TC-PAY-001 PASS 0.059ms | oracle + state matched
+[2026-11-02T17:11:08.398+07:00] [2026-11-02T17:11:08.398+07:00] TC-PAY-002 PASS 0.038ms | oracle + state matched
+[2026-11-02T17:11:08.399+07:00] [2026-11-02T17:11:08.399+07:00] TC-PAY-003 PASS 0.263ms | oracle + state matched
+[2026-11-02T17:11:08.399+07:00] [2026-11-02T17:11:08.399+07:00] TC-PAY-004 PASS 0.107ms | oracle + state matched
+[2026-11-02T17:11:08.399+07:00] [2026-11-02T17:11:08.399+07:00] TC-PAY-005 PASS 0.156ms | oracle + state matched
+[2026-11-02T17:11:08.399+07:00] [2026-11-02T17:11:08.399+07:00] TC-PAY-006 FAIL 0.190ms | actual.state.stock.A: expected=20, actual=18
+[2026-11-02T17:11:08.399+07:00] [2026-11-02T17:11:08.399+07:00] TC-PAY-007 FAIL 0.188ms | actual.state.stock.B: expected=15, actual=14
+[2026-11-02T17:11:08.400+07:00] [2026-11-02T17:11:08.400+07:00] TC-INV-001 PASS 0.145ms | oracle + state matched
+[2026-11-02T17:11:08.400+07:00] [2026-11-02T17:11:08.400+07:00] TC-INV-002 PASS 0.213ms | oracle + state matched
+[2026-11-02T17:11:08.400+07:00] [2026-11-02T17:11:08.400+07:00] TC-INV-003 PASS 0.152ms | oracle + state matched
+[2026-11-02T17:11:08.400+07:00] [2026-11-02T17:11:08.400+07:00] TC-INV-004 PASS 0.054ms | oracle + state matched
+[2026-11-02T17:11:08.400+07:00] [2026-11-02T17:11:08.400+07:00] TC-INV-005 PASS 0.096ms | oracle + state matched
+[2026-11-02T17:11:08.400+07:00] [2026-11-02T17:11:08.400+07:00] TC-INV-006 PASS 0.204ms | oracle + state matched
+[2026-11-02T17:11:08.401+07:00] [2026-11-02T17:11:08.401+07:00] TC-SAFE-001 PASS 0.136ms | oracle + state matched
+[2026-11-02T17:11:08.401+07:00] [2026-11-02T17:11:08.401+07:00] TC-SAFE-002 FAIL 0.161ms | actual.state.stock.A: expected=20, actual=18
+[2026-11-02T17:11:08.401+07:00] [2026-11-02T17:11:08.401+07:00] TC-SAFE-003 FAIL 0.163ms | actual.state.stock.A: expected=20, actual=18
+[2026-11-02T17:11:08.401+07:00] [2026-11-02T17:11:08.401+07:00] TC-SAFE-004 PASS 0.116ms | oracle + state matched
+[2026-11-02T17:11:08.401+07:00] [2026-11-02T17:11:08.401+07:00] TC-SAFE-005 FAIL 0.161ms | actual.state.stock.A: expected=20, actual=18
+[2026-11-02T17:11:08.402+07:00] [2026-11-02T17:11:08.402+07:00] RECHECK TC-CART-005 FAIL reproduced=True fixture=new
+[2026-11-02T17:11:08.402+07:00] [2026-11-02T17:11:08.402+07:00] RECHECK TC-PRO-008 FAIL reproduced=True fixture=new
+[2026-11-02T17:11:08.402+07:00] [2026-11-02T17:11:08.402+07:00] RECHECK TC-PRO-011 FAIL reproduced=True fixture=new
+[2026-11-02T17:11:08.402+07:00] [2026-11-02T17:11:08.402+07:00] RECHECK TC-PRO-012 FAIL reproduced=True fixture=new
+[2026-11-02T17:11:08.402+07:00] [2026-11-02T17:11:08.402+07:00] RECHECK TC-PAY-006 FAIL reproduced=True fixture=new
+[2026-11-02T17:11:08.403+07:00] [2026-11-02T17:11:08.403+07:00] RECHECK TC-PAY-007 FAIL reproduced=True fixture=new
+[2026-11-02T17:11:08.403+07:00] [2026-11-02T17:11:08.403+07:00] RECHECK TC-SAFE-002 FAIL reproduced=True fixture=new
+[2026-11-02T17:11:08.403+07:00] [2026-11-02T17:11:08.403+07:00] RECHECK TC-SAFE-003 FAIL reproduced=True fixture=new
+[2026-11-02T17:11:08.403+07:00] [2026-11-02T17:11:08.403+07:00] RECHECK TC-SAFE-005 FAIL reproduced=True fixture=new
+[2026-11-02T17:11:08.407+07:00] [2026-11-02T17:11:08.407+07:00] ORDER original: 52 cases | PASS=43 FAIL=9 BLOCKED=0 | matches=52/52
+[2026-11-02T17:11:08.414+07:00] [2026-11-02T17:11:08.414+07:00] ORDER reverse: 52 cases | PASS=43 FAIL=9 BLOCKED=0 | matches=52/52
+[2026-11-02T17:11:08.420+07:00] [2026-11-02T17:11:08.420+07:00] ORDER shuffled: 52 cases | PASS=43 FAIL=9 BLOCKED=0 | matches=52/52
+[2026-11-02T17:11:13.534+07:00] Matplotlib is building the font cache; this may take a moment.
+[2026-11-02T17:11:15.654+07:00] [2026-11-02T17:11:15.654+07:00] TOTAL=52 PASS=43 FAIL=9 BLOCKED=0 executed=52 pass_rate=82.69%
+[2026-11-02T17:11:15.654+07:00] [2026-11-02T17:11:15.654+07:00] Completeness: executed + blocked = CSV rows. Reproduced=True.
+[2026-11-02T17:11:15.654+07:00] [2026-11-02T17:11:15.654+07:00] Verification complete=True | runner checks=31/31 | order independence=True
+[2026-11-02T17:15:00.231+07:00] [2026-11-02T17:15:00.231+07:00] RUN-20261102T171500231662+0700 | Python 3.12.14
+[2026-11-02T17:15:00.231+07:00] [2026-11-02T17:15:00.231+07:00] Expected locked SHA256=78588938e04be88dc600b6949fc62a2814ff8689daa2cfc131ee31f3cda1df69; application SHA256=51a5bd940307df21a67352b69551c041dbbfb542cfb8fe26d29b8d09ae221b03
+[2026-11-02T17:15:00.231+07:00] [2026-11-02T17:15:00.231+07:00] Clean reports; read 52 CSV records; fresh fixture for every case.
+[2026-11-02T17:15:00.250+07:00] test_01_valid_row (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_01_valid_row) ... ok
+[2026-11-02T17:15:00.250+07:00] test_02_invalid_input_json_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_02_invalid_input_json_blocked) ... ok
+[2026-11-02T17:15:00.250+07:00] test_03_invalid_synthetic_expected_json_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_03_invalid_synthetic_expected_json_blocked) ... ok
+[2026-11-02T17:15:00.250+07:00] test_04_missing_schema_column_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_04_missing_schema_column_blocked) ... ok
+[2026-11-02T17:15:00.250+07:00] test_05_both_duplicate_ids_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_05_both_duplicate_ids_blocked) ... ok
+[2026-11-02T17:15:00.250+07:00] test_06_unknown_operation_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_06_unknown_operation_blocked) ... ok
+[2026-11-02T17:15:00.250+07:00] test_07_missing_operation_input_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_07_missing_operation_input_blocked) ... ok
+[2026-11-02T17:15:00.250+07:00] test_08_unknown_fixture_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_08_unknown_fixture_blocked) ... ok
+[2026-11-02T17:15:00.250+07:00] test_09_nonfinite_json_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_09_nonfinite_json_blocked) ... ok
+[2026-11-02T17:15:00.250+07:00] test_10_missing_synthetic_state_oracle_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_10_missing_synthetic_state_oracle_blocked) ... ok
+[2026-11-02T17:15:00.250+07:00] test_11_malformed_csv_keeps_records (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_11_malformed_csv_keeps_records) ... ok
+[2026-11-02T17:15:00.250+07:00] test_12_blank_csv_record_not_skipped (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_12_blank_csv_record_not_skipped) ... ok
+[2026-11-02T17:15:00.250+07:00] test_13_duplicate_csv_header_detected (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_13_duplicate_csv_header_detected) ... ok
+[2026-11-02T17:15:00.250+07:00] test_14_expected_exception_and_state_pass (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_14_expected_exception_and_state_pass) ... ok
+[2026-11-02T17:15:00.250+07:00] test_15_wrong_exception_message_rejected (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_15_wrong_exception_message_rejected) ... ok
+[2026-11-02T17:15:00.250+07:00] test_16_wrong_exception_type_rejected (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_16_wrong_exception_type_rejected) ... ok
+[2026-11-02T17:15:00.250+07:00] test_17_missing_exception_rejected (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_17_missing_exception_rejected) ... ok
+[2026-11-02T17:15:00.250+07:00] test_18_unexpected_exception_rejected (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_18_unexpected_exception_rejected) ... ok
+[2026-11-02T17:15:00.250+07:00] test_19_correct_exception_wrong_state_rejected (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_19_correct_exception_wrong_state_rejected) ... ok
+[2026-11-02T17:15:00.250+07:00] test_20_bool_not_equal_to_integer (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_20_bool_not_equal_to_integer) ... ok
+[2026-11-02T17:15:00.250+07:00] test_21_fixture_error_is_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_21_fixture_error_is_blocked) ... ok
+[2026-11-02T17:15:00.250+07:00] test_22_fixture_objects_and_state_are_isolated (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_22_fixture_objects_and_state_are_isolated) ... ok
+[2026-11-02T17:15:00.250+07:00] test_23_completeness_17_pass_3_blocked_is_85_percent (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_23_completeness_17_pass_3_blocked_is_85_percent) ... ok
+[2026-11-02T17:15:00.250+07:00] test_24_completeness_missing_result_rejected (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_24_completeness_missing_result_rejected) ... ok
+[2026-11-02T17:15:00.250+07:00] test_25_order_comparison_ignores_runtime_metadata (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_25_order_comparison_ignores_runtime_metadata) ... ok
+[2026-11-02T17:15:00.250+07:00] test_26_order_comparison_detects_status_change (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_26_order_comparison_detects_status_change) ... ok
+[2026-11-02T17:15:00.250+07:00] test_27_order_comparison_detects_actual_or_state_change (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_27_order_comparison_detects_actual_or_state_change) ... ok
+[2026-11-02T17:15:00.250+07:00] test_28_order_comparison_detects_missing_extra_and_duplicate_ids (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_28_order_comparison_detects_missing_extra_and_duplicate_ids) ... ok
+[2026-11-02T17:15:00.250+07:00] test_29_order_comparison_does_not_accept_blocked (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_29_order_comparison_does_not_accept_blocked) ... ok
+[2026-11-02T17:15:00.250+07:00] test_30_code_interview_examples (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_30_code_interview_examples) ... ok
+[2026-11-02T17:15:00.250+07:00] test_31_application_and_design_locks (__main__.run_runner_checks.<locals>.RunnerRegressionTests.test_31_application_and_design_locks) ... ok
+[2026-11-02T17:15:00.250+07:00] 
+[2026-11-02T17:15:00.250+07:00] ----------------------------------------------------------------------
+[2026-11-02T17:15:00.250+07:00] Ran 31 tests in 0.018s
+[2026-11-02T17:15:00.250+07:00] 
+[2026-11-02T17:15:00.250+07:00] OK
+[2026-11-02T17:15:00.250+07:00] [2026-11-02T17:15:00.250+07:00] RUNNER CHECKS: 31/31 PASS; successful=True
+[2026-11-02T17:15:00.250+07:00] [2026-11-02T17:15:00.250+07:00] TC-CART-001 PASS 0.174ms | oracle + state matched
+[2026-11-02T17:15:00.251+07:00] [2026-11-02T17:15:00.251+07:00] TC-CART-002 PASS 0.123ms | oracle + state matched
+[2026-11-02T17:15:00.251+07:00] [2026-11-02T17:15:00.251+07:00] TC-CART-003 PASS 0.112ms | oracle + state matched
+[2026-11-02T17:15:00.251+07:00] [2026-11-02T17:15:00.251+07:00] TC-CART-004 PASS 0.146ms | oracle + state matched
+[2026-11-02T17:15:00.251+07:00] [2026-11-02T17:15:00.251+07:00] TC-CART-005 FAIL 0.060ms | EXPECTED_EXCEPTION_NOT_RAISED
+[2026-11-02T17:15:00.251+07:00] [2026-11-02T17:15:00.251+07:00] TC-CART-006 PASS 0.218ms | oracle + state matched
+[2026-11-02T17:15:00.252+07:00] [2026-11-02T17:15:00.252+07:00] TC-CART-007 PASS 0.174ms | oracle + state matched
+[2026-11-02T17:15:00.252+07:00] [2026-11-02T17:15:00.252+07:00] TC-CART-008 PASS 0.048ms | oracle + state matched
+[2026-11-02T17:15:00.252+07:00] [2026-11-02T17:15:00.252+07:00] TC-CART-009 PASS 0.095ms | oracle + state matched
+[2026-11-02T17:15:00.252+07:00] [2026-11-02T17:15:00.252+07:00] TC-CART-010 PASS 0.172ms | oracle + state matched
+[2026-11-02T17:15:00.252+07:00] [2026-11-02T17:15:00.252+07:00] TC-CART-011 PASS 0.201ms | oracle + state matched
+[2026-11-02T17:15:00.252+07:00] [2026-11-02T17:15:00.252+07:00] TC-PRI-001 PASS 0.060ms | oracle + state matched
+[2026-11-02T17:15:00.253+07:00] [2026-11-02T17:15:00.252+07:00] TC-PRI-002 PASS 0.065ms | oracle + state matched
+[2026-11-02T17:15:00.253+07:00] [2026-11-02T17:15:00.253+07:00] TC-PRI-003 PASS 0.199ms | oracle + state matched
+[2026-11-02T17:15:00.253+07:00] [2026-11-02T17:15:00.253+07:00] TC-PRI-004 PASS 0.052ms | oracle + state matched
+[2026-11-02T17:15:00.253+07:00] [2026-11-02T17:15:00.253+07:00] TC-PRI-005 PASS 0.123ms | oracle + state matched
+[2026-11-02T17:15:00.253+07:00] [2026-11-02T17:15:00.253+07:00] TC-PRO-001 PASS 0.057ms | oracle + state matched
+[2026-11-02T17:15:00.253+07:00] [2026-11-02T17:15:00.253+07:00] TC-PRO-002 PASS 0.213ms | oracle + state matched
+[2026-11-02T17:15:00.254+07:00] [2026-11-02T17:15:00.254+07:00] TC-PRO-003 PASS 0.133ms | oracle + state matched
+[2026-11-02T17:15:00.254+07:00] [2026-11-02T17:15:00.254+07:00] TC-PRO-004 PASS 0.116ms | oracle + state matched
+[2026-11-02T17:15:00.254+07:00] [2026-11-02T17:15:00.254+07:00] TC-PRO-005 PASS 0.115ms | oracle + state matched
+[2026-11-02T17:15:00.254+07:00] [2026-11-02T17:15:00.254+07:00] TC-PRO-006 PASS 0.049ms | oracle + state matched
+[2026-11-02T17:15:00.254+07:00] [2026-11-02T17:15:00.254+07:00] TC-PRO-007 PASS 0.155ms | oracle + state matched
+[2026-11-02T17:15:00.254+07:00] [2026-11-02T17:15:00.254+07:00] TC-PRO-008 FAIL 0.084ms | EXPECTED_EXCEPTION_NOT_RAISED
+[2026-11-02T17:15:00.254+07:00] [2026-11-02T17:15:00.254+07:00] TC-PRO-009 PASS 0.119ms | oracle + state matched
+[2026-11-02T17:15:00.254+07:00] [2026-11-02T17:15:00.254+07:00] TC-PRO-010 PASS 0.115ms | oracle + state matched
+[2026-11-02T17:15:00.255+07:00] [2026-11-02T17:15:00.255+07:00] TC-PRO-011 FAIL 0.209ms | actual.state.stock.A: expected=20, actual=17
+[2026-11-02T17:15:00.255+07:00] [2026-11-02T17:15:00.255+07:00] TC-PRO-012 FAIL 0.173ms | actual.return[0].state.stock.A: expected=20, actual=17
+[2026-11-02T17:15:00.255+07:00] [2026-11-02T17:15:00.255+07:00] TC-SHP-001 PASS 0.040ms | oracle + state matched
+[2026-11-02T17:15:00.255+07:00] [2026-11-02T17:15:00.255+07:00] TC-SHP-002 PASS 0.036ms | oracle + state matched
+[2026-11-02T17:15:00.255+07:00] [2026-11-02T17:15:00.255+07:00] TC-SHP-003 PASS 0.114ms | oracle + state matched
+[2026-11-02T17:15:00.255+07:00] [2026-11-02T17:15:00.255+07:00] TC-SHP-004 PASS 0.047ms | oracle + state matched
+[2026-11-02T17:15:00.255+07:00] [2026-11-02T17:15:00.255+07:00] TC-SHP-005 PASS 0.032ms | oracle + state matched
+[2026-11-02T17:15:00.256+07:00] [2026-11-02T17:15:00.256+07:00] TC-SHP-006 PASS 0.146ms | oracle + state matched
+[2026-11-02T17:15:00.256+07:00] [2026-11-02T17:15:00.256+07:00] TC-PAY-001 PASS 0.037ms | oracle + state matched
+[2026-11-02T17:15:00.256+07:00] [2026-11-02T17:15:00.256+07:00] TC-PAY-002 PASS 0.038ms | oracle + state matched
+[2026-11-02T17:15:00.258+07:00] [2026-11-02T17:15:00.258+07:00] TC-PAY-003 PASS 2.655ms | oracle + state matched
+[2026-11-02T17:15:00.259+07:00] [2026-11-02T17:15:00.259+07:00] TC-PAY-004 PASS 0.345ms | oracle + state matched
+[2026-11-02T17:15:00.259+07:00] [2026-11-02T17:15:00.259+07:00] TC-PAY-005 PASS 0.290ms | oracle + state matched
+[2026-11-02T17:15:00.260+07:00] [2026-11-02T17:15:00.260+07:00] TC-PAY-006 FAIL 0.418ms | actual.state.stock.A: expected=20, actual=18
+[2026-11-02T17:15:00.260+07:00] [2026-11-02T17:15:00.260+07:00] TC-PAY-007 FAIL 0.394ms | actual.state.stock.B: expected=15, actual=14
+[2026-11-02T17:15:00.261+07:00] [2026-11-02T17:15:00.261+07:00] TC-INV-001 PASS 0.296ms | oracle + state matched
+[2026-11-02T17:15:00.261+07:00] [2026-11-02T17:15:00.261+07:00] TC-INV-002 PASS 0.397ms | oracle + state matched
+[2026-11-02T17:15:00.261+07:00] [2026-11-02T17:15:00.261+07:00] TC-INV-003 PASS 0.298ms | oracle + state matched
+[2026-11-02T17:15:00.262+07:00] [2026-11-02T17:15:00.262+07:00] TC-INV-004 PASS 0.114ms | oracle + state matched
+[2026-11-02T17:15:00.262+07:00] [2026-11-02T17:15:00.262+07:00] TC-INV-005 PASS 0.110ms | oracle + state matched
+[2026-11-02T17:15:00.262+07:00] [2026-11-02T17:15:00.262+07:00] TC-INV-006 PASS 0.555ms | oracle + state matched
+[2026-11-02T17:15:00.263+07:00] [2026-11-02T17:15:00.263+07:00] TC-SAFE-001 PASS 0.416ms | oracle + state matched
+[2026-11-02T17:15:00.264+07:00] [2026-11-02T17:15:00.264+07:00] TC-SAFE-002 FAIL 0.460ms | actual.state.stock.A: expected=20, actual=18
+[2026-11-02T17:15:00.264+07:00] [2026-11-02T17:15:00.264+07:00] TC-SAFE-003 FAIL 0.527ms | actual.state.stock.A: expected=20, actual=18
+[2026-11-02T17:15:00.265+07:00] [2026-11-02T17:15:00.265+07:00] TC-SAFE-004 PASS 0.374ms | oracle + state matched
+[2026-11-02T17:15:00.265+07:00] [2026-11-02T17:15:00.265+07:00] TC-SAFE-005 FAIL 0.435ms | actual.state.stock.A: expected=20, actual=18
+[2026-11-02T17:15:00.266+07:00] [2026-11-02T17:15:00.266+07:00] RECHECK TC-CART-005 FAIL reproduced=True fixture=new
+[2026-11-02T17:15:00.266+07:00] [2026-11-02T17:15:00.266+07:00] RECHECK TC-PRO-008 FAIL reproduced=True fixture=new
+[2026-11-02T17:15:00.266+07:00] [2026-11-02T17:15:00.266+07:00] RECHECK TC-PRO-011 FAIL reproduced=True fixture=new
+[2026-11-02T17:15:00.267+07:00] [2026-11-02T17:15:00.267+07:00] RECHECK TC-PRO-012 FAIL reproduced=True fixture=new
+[2026-11-02T17:15:00.267+07:00] [2026-11-02T17:15:00.267+07:00] RECHECK TC-PAY-006 FAIL reproduced=True fixture=new
+[2026-11-02T17:15:00.268+07:00] [2026-11-02T17:15:00.268+07:00] RECHECK TC-PAY-007 FAIL reproduced=True fixture=new
+[2026-11-02T17:15:00.268+07:00] [2026-11-02T17:15:00.268+07:00] RECHECK TC-SAFE-002 FAIL reproduced=True fixture=new
+[2026-11-02T17:15:00.269+07:00] [2026-11-02T17:15:00.269+07:00] RECHECK TC-SAFE-003 FAIL reproduced=True fixture=new
+[2026-11-02T17:15:00.269+07:00] [2026-11-02T17:15:00.269+07:00] RECHECK TC-SAFE-005 FAIL reproduced=True fixture=new
+[2026-11-02T17:15:00.276+07:00] [2026-11-02T17:15:00.276+07:00] ORDER original: 52 cases | PASS=43 FAIL=9 BLOCKED=0 | matches=52/52
+[2026-11-02T17:15:00.285+07:00] [2026-11-02T17:15:00.285+07:00] ORDER reverse: 52 cases | PASS=43 FAIL=9 BLOCKED=0 | matches=52/52
+[2026-11-02T17:15:00.291+07:00] [2026-11-02T17:15:00.291+07:00] ORDER shuffled: 52 cases | PASS=43 FAIL=9 BLOCKED=0 | matches=52/52
+[2026-11-02T17:15:05.407+07:00] Matplotlib is building the font cache; this may take a moment.
+[2026-11-02T17:15:07.560+07:00] [2026-11-02T17:15:07.560+07:00] TOTAL=52 PASS=43 FAIL=9 BLOCKED=0 executed=52 pass_rate=82.69%
+[2026-11-02T17:15:07.560+07:00] [2026-11-02T17:15:07.560+07:00] Completeness: executed + blocked = CSV rows. Reproduced=True.
+[2026-11-02T17:15:07.560+07:00] [2026-11-02T17:15:07.560+07:00] Verification complete=True | runner checks=31/31 | order independence=True
+[2026-11-02T17:15:54.533+07:00] QA final: deterministic sequence, 156 raw rows/104 reordered comparisons, 31 runner checks, primary counts, rechecks, trace, workbook, HTML artifact links, CLI exit2 and Gradio build/filter verified; application/expected SHA256 unchanged.
